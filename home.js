@@ -119,22 +119,22 @@ const getInTouchBtnEl = document.getElementById("getInTouch");
 
 
 contactUsEl.addEventListener('click', function(){
-  window.location.href = './contactPage.html';
+  window.location.href = './views/contactPage.html';
 });
 loginEl.addEventListener('click',function(){
-  window.location.href = './signInSignUp.html';
+  window.location.href = './views/signInSignUp.html';
 });
 loginEl2.addEventListener('click',function(){
-  window.location.href = './signInSignUp.html';
+  window.location.href = './views/signInSignUp.html';
 });
 cookingBtnEl.addEventListener('click',function(){
-  window.location.href = './cookingPage.html';
+  window.location.href = './views/cookingPage.html';
 });
 cleaningBtnEl.addEventListener('click',function(){
-  window.location.href = './cleaningSub.html';
+  window.location.href = './views/cleaningSub.html';
 })
 getInTouchBtnEl.addEventListener('click',function(){
-  window.location.href = "./contactPage.html";
+  window.location.href = "./views/contactPage.html";
 })
 aboutScroll.addEventListener('click',function(){
   document.getElementById('aboutUs').scrollIntoView({behavior: 'smooth' });
